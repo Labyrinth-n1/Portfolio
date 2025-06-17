@@ -15,6 +15,7 @@ import aff1 from "../../assets/flyers/labyrinth1.png"
 import aff2 from "../../assets/flyers/pyjama_party.png"
 import aff3 from "../../assets/flyers/uncle_waffle.png"
 import aff4 from "../../assets/flyers/silenced.png"
+import aff5 from "../../assets/flyers/airpodmax.png"
 
 /**
  * Main layout component
@@ -143,7 +144,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <img src={aff2} alt="Affiche Labyrinth" />
             <img src={aff3} alt="Affiche Uncle Waffle" />
             <img src={aff4} alt="Affiche Silenced" />
-            {/* Ajoute d'autres ici */}
+            <img src={aff5} alt="Affiche Silenced" />
+        
         </div>
     </section>
 ) : (
