@@ -1,13 +1,10 @@
 const config = require(`../../.ghost.json`).production;
 module.exports = {
-    siteUrl:
-        process.env.NODE_ENV === `production`
-            ? process.env.SITE_URL || config.siteUrl || `http://localhost:8000`
-            : `http://localhost:8000`, // Site domain. Do not include a trailing slash!
+    siteUrl: "https://portfolio-labyrinth.vercel.app",
 
     postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-    siteTitleMeta: `Ghost Gatsby Starter`, // This allows an alternative site title for meta data for pages.
+    siteTitleMeta: `Labyrinth Portfolio`, // This allows an alternative site title for meta data for pages.
     siteDescriptionMeta: `A starter template to build amazing static websites with Ghost and Gatsby`, // This allows an alternative site description for meta data for pages.
 
     shareImageWidth: 1000, // Change to the width of your default share image
