@@ -19,6 +19,7 @@ import aff5 from "../../assets/flyers/airpodmax.png"
 import aff6 from "../../assets/flyers/nike.png"
 import aff7 from "../../assets/flyers/Lili.png"
 import aff8 from "../../assets/flyers/nini.png"
+import aff9 from "../../assets/flyers/Yaourt.png"
 
 /**
  * Main layout component
@@ -151,6 +152,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <img src={aff6} alt="Affiche Nike" />
             <img src={aff7} alt="Affiche Lili" />                            
             <img src={aff8} alt="Affiche Nini" />
+            <img src={aff9} alt="Affiche Yaourt" />
         </div>
     </section>
 ) : (
