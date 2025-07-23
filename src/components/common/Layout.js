@@ -16,7 +16,7 @@ import aff2 from "../../assets/flyers/pyjama_party.png"
 import aff3 from "../../assets/flyers/uncle_waffle.png"
 import aff4 from "../../assets/flyers/silenced.png"
 import aff5 from "../../assets/flyers/airpodmax.png"
-import aff6 from "../../assets/flyers/Nike.png"
+import aff6 from "../../assets/flyers/nike.png"
 import aff7 from "../../assets/flyers/Lili.png"
 import aff8 from "../../assets/flyers/nini.png"
 
